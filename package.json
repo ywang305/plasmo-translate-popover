@@ -2,14 +2,19 @@
   "name": "plasmo-translate",
   "displayName": "Plasmo translate",
   "version": "0.0.1",
-  "description": "translation popup",
-  "author": "ywang305",
+  "description": "translation on selection",
+  "author": "ywang305. ywang305@syr.edu",
   "scripts": {
     "dev": "plasmo dev",
     "build": "plasmo build",
     "test": "plasmo test"
   },
   "dependencies": {
+    "@emotion/cache": "^11.11.0",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.14.5",
+    "@plasmohq/messaging": "^0.5.0",
     "plasmo": "0.82.1",
     "react": "18.2.0",
     "react-dom": "18.2.0"
@@ -26,6 +31,9 @@
   "manifest": {
     "host_permissions": [
       "https://*/*"
+    ],
+    "permissions": [
+      "tabs"
     ]
   }
 }
