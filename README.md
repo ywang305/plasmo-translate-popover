@@ -1,5 +1,7 @@
 This is a [Plasmo extension](https://docs.plasmo.com/) project bootstrapped with [`plasmo init`](https://www.npmjs.com/package/plasmo).
 
+The popover component is built by React, see `contents/plasmo-overlay-anchor.tsx``
+
 ## Getting Started
 
 First, run the development server:
